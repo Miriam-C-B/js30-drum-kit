@@ -24,7 +24,7 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all .07s ease; /*makes the buttons bigger */
   width: 10rem;
   text-align: center;
   color: white;
@@ -32,10 +32,10 @@ body,html {
   text-shadow: 0 0 .5rem black;
 }
 
-.playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+.playing { /*activated when someone presses one of the drum keys*/
+  transform: scale(1.1); /* makes keyes a bit larger */
+  border-color: #ffc600; /*changes border colours*/
+  box-shadow: 0 0 1rem #ffc600; /*changes shadow color*/
 }
 
 kbd {
